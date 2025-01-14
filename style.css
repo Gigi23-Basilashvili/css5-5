@@ -1,0 +1,406 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+}
+body {
+    background: #040405;
+}
+nav{
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    padding: 16px 200px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 0 auto;
+}
+.header {
+    max-width: 1040px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    flex-shrink: 0;
+}
+.HeaderText {
+    display: flex;
+    gap: 16px;
+}
+.HeaderText span {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+.walletButn {
+    border-radius: 24px;
+    background: #00FF1A;
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.walletButn span {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+/*  */
+/*  */
+.contentSectionOne {
+    max-width: 1040px;
+    width: 100%;
+    display: flex;
+    justify-self: center;
+    padding-top: 112px;
+    align-items: center;
+    gap: 151px;
+}
+.firstContent {
+    display: flex;
+    max-width: 564px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+.sectionOneHeader {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.sectionOneHeader span {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+.sectionOneContent {
+    max-width: 564px;
+    width: 100%;
+}
+.sectionOneContent span {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.sectionOneInfo {
+    max-width: 546px;
+    width: 100%;
+}
+.sectionOneInfo span {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; 
+}
+.sectionOneButn {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+.sectionOneButn span {
+    border-radius: 24px;
+    border: 1px solid #00FF1A;
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    cursor: pointer;
+}
+.sectionOneButn :nth-child(1):hover  {
+    background: #00FF1A;
+    color: #000;
+}
+.sectionOneButn :nth-child(2):hover  {
+    background: #00FF1A;
+    color: #000;
+}
+.firstContentImg {
+    max-width: 325px;
+    width: 100%;
+}
+.contentTwo {
+    max-width: 815px;
+    width: 100%;
+    border-top: 1px solid #00FF1A;
+    padding-top: 24px;
+    align-items: flex-start;
+    gap: 40px;
+    display: flex;
+    justify-self: center;
+}
+/*  */
+/*  */
+.contentSectionTwo {
+    max-width: 1040px;
+    width: 100%;
+    display: flex;
+    justify-self: center;
+    padding-top: 112px;
+}
+.firstInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 158px;
+}
+.firstInfo :nth-child(1) {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+.firstInfo :nth-child(2) {
+    color: #7A7A7A;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 100% */
+    text-transform: uppercase;
+}
+.secondInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 196px;
+}
+.thirdInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 185px;
+}
+.secondInfo :nth-child(1) {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+.secondInfo :nth-child(2) {
+    color: #7A7A7A;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 100% */
+    text-transform: uppercase;
+}
+.thirdInfo :nth-child(1) {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+.thirdInfo :nth-child(2) {
+    color: #7A7A7A;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 100% */
+    text-transform: uppercase;
+}
+/*  */
+/*  */
+.contentSectionThree {
+    max-width: 1040px;
+    width: 100%;
+    display: flex;
+    justify-self: center;
+    padding-top: 112px;
+    gap: 22px;
+}
+.sectionThreeDiv {
+    max-width: 451px;
+    width: 100%;
+}
+.sectionThreeTextDiv {
+    max-width: 567px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+}
+.headerThree span {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    padding-left: 12px;
+}
+.sectionThreeInfoDiv span {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.textSectionThree {
+    max-width: 546px;
+    width: 100%;
+}
+.textSectionThree span {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 160% */
+}
+.rectangle {
+    max-width: 549px;
+    width: 100%;
+    display: flex;
+    gap: 16px;
+}
+.divinfo {
+    max-width: 517px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.divhead span {
+    color: #FFF;
+    align-self: stretch;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.divTxt {
+    color: #7A7A7A;
+    align-self: stretch;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+/*  */
+/*  */
+.contentSectionFour {
+    max-width: 1040px;
+    width: 100%;
+    display: flex;
+    justify-self: center;
+    padding-top: 112px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.sectionFourVector {
+    max-width: 197px;
+    width: 100%;
+}
+.sectionFourVector span {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    padding-left: 12px;
+}
+.sectionFourDivT span {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.sectionFourDivT {
+    max-width: 465px;
+    width: 100%;
+    display: flex;
+    justify-self: center;
+}
+.sectionFourLogos {
+    max-width: 863px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between
+}
+.sectionFourRegister {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 245px;
+}
+.registerHead span {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.registerText span {
+    color: #7A7A7A;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    align-self: stretch;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+.registerText {
+    display: flex;
+    justify-content: center;
+}
+.registerHead {
+    display: flex;
+    justify-content: center;
+}
+.rowdiv {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+/*  */
+/*  */
+
+
+
